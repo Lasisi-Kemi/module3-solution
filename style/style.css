@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: yellowgreen;
+}
+
+.logo-title {
+    color: azure;
+    font-weight: 700;
+}
+
+#nav-list a {
+    font-size: 20px;
+    color: azure;
+    text-align: center;
+}
+
+.section-menu {
+    margin-top: 50px;
+}
+
+.text-title {
+    margin-bottom: 50px;
+    color: yellowgreen;
+}
+
+.food-item {
+    background-color: yellowgreen;
+    color: azure;
+}
+
+/*Large decvices only*/
+@media (min-width: 1200px) {
+    
+    
+}
+
+/*Medium Devices only*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    #nav-list a {
+        font-size: 18px;
+    }
+}
+
+/*Small devices only*/
+@media (min-width: 768px) and (max-width:991px) {
+    #nav-list a {
+        font-size: 16px;
+}
+}
+
+/*Extra small devices only*/
+@media (max-width: 767px) {
+    #nav-list a {
+        font-size: 16px;
+}
+
+}
+
+@media (max-width: 575px){
+    #nav-list a {
+        font-size: 16px;
+}
+}
